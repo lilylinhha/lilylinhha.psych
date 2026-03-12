@@ -1,0 +1,78 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e8f0f2; /* Soft blue */
+  color: #333;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #a4d6d8; /* Soft green */
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #ffe4c4; /* Warm neutral */
+  color: #333;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+  background-color: #a4d6d8; /* Soft green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #7bb8b7; /* Darker green on hover */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px 15px;
+  }
+  .card {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 769px) {
+  .hero {
+    padding: 100px 15px;
+  }
+}
